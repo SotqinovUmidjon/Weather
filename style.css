@@ -1,0 +1,51 @@
+body {
+  /* background-color: #eeede2; */
+  background: url("https://www.uzreport.news/fotobank/image/d37bf17478c9f43fa4095ea3b344b734.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.card {
+  margin-top: 100px;
+  background-color: rgba(127, 255, 212, 0.379);
+  color: #000;
+  font-weight: 700;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+.mb-2, .my-5 {
+  color: #000;
+  font-weight: 600;
+}
+.btn {
+  padding: 2px 5px;
+  margin-top: 10px;
+  border: 1px solid #000;
+}
